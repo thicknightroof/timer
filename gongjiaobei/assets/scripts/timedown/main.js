@@ -228,6 +228,24 @@ define(function (require, exports, module) {
 
 
 
+    // Huanjie 11
+    $("#time_huanjie11_zheng").custimer({
+        time_length: 60,
+        begin_btn_id: "beginBtn_huanjie11_zheng",
+        stop_btn_id: "stopBtn_huanjie11_zheng",
+        reset_btn_id: 'resetBtn_huanjie11_zheng',
+    });
+
+    $("#time_huanjie11_fan").custimer({
+        time_length: 60,
+        begin_btn_id: "beginBtn_huanjie11_fan",
+        stop_btn_id: "stopBtn_huanjie11_fan",
+        reset_btn_id: 'resetBtn_huanjie11_fan',
+    });
+
+
+
+
 
 
     var matrix = [

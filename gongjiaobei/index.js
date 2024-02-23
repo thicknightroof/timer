@@ -194,3 +194,21 @@ var huanjie10_zheng_timeend = setInterval(function(){
 var huanjie10_zheng_time30sec = setInterval(function(){
     time30sec_trigger("#time_huanjie10_zheng", huanjie10_zheng_time30sec);
 }, 1000);
+
+
+
+
+// Huanjie 11
+var huanjie11_zheng_timeend = setInterval(function(){
+    timeend_trigger("#time_huanjie11_zheng", huanjie11_zheng_timeend);
+}, 1000);
+var huanjie11_zheng_time30sec = setInterval(function(){
+    time30sec_trigger("#time_huanjie11_zheng", huanjie11_zheng_time30sec);
+}, 1000);
+
+var huanjie11_fan_timeend = setInterval(function(){
+    timeend_trigger("#time_huanjie11_fan", huanjie11_fan_timeend);
+}, 1000);
+var huanjie11_fan_time30sec = setInterval(function(){
+    time30sec_trigger("#time_huanjie11_fan", huanjie11_fan_time30sec);
+}, 1000);
